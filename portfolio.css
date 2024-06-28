@@ -1,0 +1,321 @@
+/**.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+**/
+body{
+    background-color: #c2a8c2;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)),
+    url('https://png.pngtree.com/thumb_back/fw800/background/20230930/pngtree-web-development-concept-programming-and-coding-illustrated-in-3d-image_13511770.png');
+    background-size: cover;
+    color:white;
+
+}
+.navbar{
+    width: 90.5%;
+    height: 60px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: "Poppins", sans-serif;
+}
+.Logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+
+}
+.menu a:nth-child(5){
+    background-color: green;
+    border-radius: 8px;
+    margin:0 1rem ;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: green; 
+    border-radius: 8px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    
+
+}
+
+.left{
+    flex-basis: 60%;
+}
+.right{
+    flex-basis: 32%;
+    margin-right: 5%;
+    height: 85%;
+    border-radius: 2%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) , url('is.jpeg');
+    
+}
+.left h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(135, 124, 133);
+}
+.left h1{
+    font-family: "Kalam", cursive;
+font-size: 4em;
+}
+.left p{
+    font-family: "Poppins", sans-serif;
+    line-height: 2rem;
+}
+
+#resume{
+    color: white;
+    background-color: green;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    border-radius: 8px ;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin: 0 1em;
+   
+    border-radius: 2px;
+    border: 2px dashed rgb(8, 7, 7);
+}
+#resume:hover{
+    color: black;
+    padding: 1rem 2rem;
+}
+
+
+
+
+
+/*service*/
+
+.serv{
+    width: 100%;
+    height: 300px;
+ 
+}
+
+.headings{
+    text-align: center;
+    margin-top: 20px;
+}
+.headings p{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.headings h1{
+    font-size: 2rem;
+    color: #141114;
+}
+.discription{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 2px 3px;
+    margin-top: 25px;
+    
+}
+
+.discription h3{
+    color: blueviolet;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/**about section**/
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    
+}
+.leftbio{
+    
+    flex-basis: 40%;
+}
+.leftbio img{
+    width: 45%;
+    height: 300px;
+    border-radius: 80%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ;
+  
+}
+.rightbio{
+   
+    flex-basis: 59%;
+}
+.rightbio p1{
+    font-size: 1rem;
+}
+.rightbio p{
+    font-family: "Poppins", sans-serif;
+    margin: 15px 0;
+    line-height: 2.5rem;
+    color: black transparent;
+    
+}
+.rightbio h1{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #141114
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+
+#follow{
+    text-align: center;
+}
+#follow i{
+    color:green;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.link-h{
+    
+    text-align: center;
+    margin-top: 3rem;
+    border-radius: 8px;
+}
+#hire{
+    text-decoration: none;
+    color: #141114;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1em;
+    border: 2px dashed gray;
+    
+}
+#hire:hover{
+    color: green;
+}
+#skill{
+    align-items: flex-start;
+    font-family: "Poppins", sans-serif;
+    margin-left: 60px;
+    
+    
+}
+.language{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center ;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#skill h1{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(81, 73, 81);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+     
+}
+
+.language p{
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+}
+
+#projectsection{
+    text-align: center;
+
+}
+#projectsection h1{
+    font-size: 2rem;
+    color: rgb(47, 17, 58) ;
+    
+}
+.project {
+    
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1.5px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.calc{
+    font-size: 1rem;
+    font: bold;letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.calc i{
+    font-size: 1.8rem;
+
+}
+.clac p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.clone i{
+    font-size: 1.8rem;
+
+}
+.cline p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.page i{
+    font-size: 1.8rem;
+}
+    
+footer{
+    
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(243, 239, 239);
+    background-color: rgb(11, 10, 10);
+    text-align: center;
+}
